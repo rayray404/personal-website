@@ -77,3 +77,83 @@ footer p {
     font-size: 24px;
     padding: 0.5em;
 }
+
+.blog {
+    margin: 1em 0em;
+    border-radius: 3em;
+}
+
+
+
+.blog a, a:visited {
+    color:grey;
+}
+
+.hyperlink1:hover {
+    color:darkgrey
+}
+
+.paragraph1 {
+    color: hsl(0, 0%, 90%);
+}
+
+
+.blog {
+    width:90%;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.active-blog, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active-blog:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  line-height: 1.5em;
+  background-color: #f1f1f1;
+  color: hsl(0, 0%, 30%);
+}
+
+.content2 {
+  padding: 0 18px;
+  max-height: max-content;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  line-height: 1.5em;
+  background-color: #f1f1f1;
+  color: hsl(0, 0%, 30%);
+}
+button {
+    background-color: #04AA6D;
+    border: none;
+    font-family: monospace;
+    color: white;
+    padding: 10px;
+}
