@@ -165,3 +165,11 @@ button {
     color: white;
     padding: 10px;
 }
+
+.embed:hover {
+    box-shadow: 5px 5px #04AA6D;
+}
+
+.embed2:hover {
+    box-shadow: 5px 5px #ff3800;
+}
