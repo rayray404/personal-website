@@ -1,7 +1,4 @@
-<!DOCTYPE html>
 <html lang="en">
-
-
 
 <head>
   <meta charset="UTF-8" />
@@ -10,29 +7,57 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
   <title>Snake Game</title>
-  <link rel="stylesheet" href="snake_style.css" />
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
   <script src="snake_script.js" defer></script>
   
 </head>
 
 <body>
-  <div>
-    <div class="scores">
-      <h1 id="score">000</h1>
-      <h1 id="highScore">000</h1>
+  <div class="topnav">
+    <p style="font-style: italic;">Mini-Games</p>
+    <div class="link-group">
+      <a href="../index.html">Home</a>
+      <a href="../posts.html">Posts</a>
+      <a href="../resume.html">Resume</a>
+      <a class="active" style="background-color: #ff3800;" href="./games.html">Games</a>
     </div>
-    <div class="game-border-1">
-      <div class="game-border-2">
-        <div class="game-border-3">
-          <div id="game-board"></div>
+  </div>
+  <br>
+  <div id="game-container">
+    <link rel="stylesheet" href="snake_style.css">
+    <div>
+      <div class="scores">
+        <h1 id="score">000</h1>
+        <h1 id="highScore">000</h1>
+      </div>
+      <div class="game-border-1">
+        <div class="game-border-2">
+          <div class="game-border-3">
+            <div id="game-board"></div>
+          </div>
         </div>
       </div>
     </div>
+    <h1 id="instruction-text">Spacebar to start.</h1>
+    <img id="logo" src="./static/snake-game-logo.png" height="100em" alt="snake-logo" />
   </div>
-  <h1 id="instruction-text">Press spacebar to start the game</h1>
-  <img id="logo" src="./static/snake-game-logo.png" height="150em" alt="snake-logo" />
+  
+
+  <link rel="stylesheet" href="../styles.css">
   <a href="../games.html"><button>Return &raquo;</button></a>
+  <footer>
+    <p>a personal website by Ray Han</p>
+    <div class="links">
+      <a class="icon" href="mailto:rayhan.mohammadriyaz@gmail.com"><i class="fa fa-envelope"></i></a>
+      <a class="icon" href="https://github.com/rayn404"><i class="fa fa-github"></i></a>
+      <a class="icon" href="https://www.linkedin.com/in/rayhan-phy/"><i class="fa fa-linkedin"></i></a>
+      <a class="icon" href="https://www.instagram.com/ray_han_404/"><i class="fa fa-instagram"></i></a>
+      <a class="icon" href="tel:+819086629026"><i class="fa fa-phone"></i></a>
+    </div>
+  </footer>
+  <script src="main.js"></script>
 </body>
 
 </html>

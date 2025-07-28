@@ -120,6 +120,7 @@ function startGame() {
 
 // Keypress event listener
 function handleKeyPress(event) {
+  preventDefault()
   if (
     (!gameStarted && event.code === 'Space') ||
     (!gameStarted && event.key === ' ')

@@ -8,6 +8,7 @@ body {
     overflow: auto;
     top: 1em;
     background-color: #444;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,6 +59,7 @@ footer {
     color: white;
     justify-content: space-between;
     display: flex;
+    width: 100%;
 
 }
 
@@ -159,11 +161,17 @@ a:visited {
 }
 
 button {
+    font-size: 1em;
     background-color: #04AA6D;
     border: none;
     font-family: monospace;
     color: white;
     padding: 10px;
+}
+button:hover {
+    background-color: hsl(0, 0%, 86%);
+    color: #04AA6D;
+    cursor: pointer;
 }
 
 .embed:hover {

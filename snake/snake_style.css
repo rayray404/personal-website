@@ -1,5 +1,6 @@
 body {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -7,10 +8,10 @@ body {
   font-family: 'VT323', monospace;
 }
 
-body,
-.snake {
+body, .snake {
   background-color: #222;
 }
+
 
 #game-board {
   border-radius: 100px;
